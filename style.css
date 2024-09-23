@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'Gill Sans Bold';
+    src: url('Gill Sans Bold.otf') format('opentype');
+  }
+  
+  body {
+    font-family: 'Gill Sans Bold', sans-serif;
+  }
+  
+  html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .outside {
+    width: 400px;
+    height: 580px;
+    border: 15px solid #fedd20;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #7c2fbc;
+    background: linear-gradient(135deg, #69428f, #f8befe);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .basic {
+    font-size: 15px;
+    font-weight: bold;
+    background: linear-gradient(to top, silver, white);
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+  
+  .pokemon-name {
+    margin-top: -3px;
+    margin-left: -159px;
+  }
+  
+  .hp {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .type-icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-left: 4px;
+  }
+  
+  .hp-text {
+    font-size: 12px;
+    margin-left: 5px;
+  }
+  
+  .hp-value {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+  
+  .image-container {
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .moves {
+    margin: 10px 0;
+  }
+  
+  .move {
+    margin-bottom: 10px;
+  }
+  
+  .move-symbols {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .move-name {
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .move-description {
+    margin-left: 9px;
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+    padding: 5px;
+    margin-top: auto;
+  }
+  
+  .weakness-resistance {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to top, silver, white);
+    padding: 5px;
+    border-radius: 5px;
+    align-items: center;
+    width: 90%
+    margin-left: 5%;
+    margin-right: 9%;
+  }
+  
+  .weakness, .resistance {
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .resistance::before {
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 20px;
+    background-color: black;
+    margin-right: 5px;
+  }
+  
+  .retreat {
+    background: linear-gradient(to top, silver, white);
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    width:90%
+  }
+  
+  .retreat-icon {
+    margin-left: 5px;
+  }
